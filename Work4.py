@@ -24,3 +24,4 @@ print(f'{first}{second}{third}')
 
 f = open('result.txt','w')
 f.write(f'{first}{second}{third}')
+f.close()
