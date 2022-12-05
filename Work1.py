@@ -2,15 +2,10 @@
 
 import math
 
-lis = [(math.pi)]
+lis = str(math.pi)
 
-#d = int(input'Введите точность для числа Pi: ')
+d = int(input('Введите точность для числа Pi: '))
 
-print(lis)
+l = lis[0:d+2:1]
 
-i = int(input('input: '))
-
-l = lis[4:i]
-
-
-print(l)
+print(f'Число PI с точностью {d} равно {l}')
